@@ -1,0 +1,15 @@
+"leftBarItem" = "Geri";
+"rightBarItem" = "İleri";
+"title" = "UEFA Şampiyonlar Ligi";
+"info" = "UEFA Şampiyonlar Ligi veya kısa kullanımıyla Şampiyonlar Ligi, Avrupa Futbol Federasyonları Birliği tarafından her yıl düzenlenen ve UEFAya bağlı birinci liglerdeki takımların mücadele ettiği uluslararası futbol turnuvası.";
+"barcelonaTitle" = "Barcelona";
+"chelseaTitle" = "Chelsea";
+"juventusTitle" = "Juventus";
+"btnMain" = "Takım bilgisini göster";
+"Barcelona" = "FC Barcelona, İspanya'nın Katalonya özerk bölgesindeki Barselona kentinde bulunan futbol kulübü. 1899 yılında, Joan Gamper önderliğinde, İsviçreli, İngiliz ve İspanyol bir grup tarafından kurulmuştur.";
+"Chelsea" = "Chelsea Football Club, Batı Londra merkezli İngiliz profesyonel futbol kulübü. 1905'te kurulan kulüp Premier League'de mücadele etmektedir ve tarihi boyunca İngiliz liglerinde üst sıralarda yer almıştır.";
+"Juventus" = "Juventus Football Club, Torino'da kurulmuş ve İtalyan futbolunun en başarılı ve en büyük kulüplerinden biri olarak bilinir. Toplamda 62 resmi şampiyona kupasıyla, diğer tüm İtalyan takımlarından daha fazla kupaya sahiptir.";
+"countryInfo" = "Takım Listesi";
+"countryList" = "Türkiye,Almanya,İtalya,İspanya";
+"newCountryList" = "Amerika,Hollanda,Avustralya";
+"update" = "Güncelle";

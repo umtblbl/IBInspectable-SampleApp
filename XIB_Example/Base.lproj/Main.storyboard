@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="M6b-N3-CBx">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="XIB_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="title_label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JmA-ek-fZP">
+                                <rect key="frame" x="12" y="124" width="390" height="24"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="title"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="info_label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="usz-Kk-6j0">
+                                <rect key="frame" x="12" y="212" width="390" height="29"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="info"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="741-ky-RBm">
+                                <rect key="frame" x="12" y="368" width="390" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="btnMain"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="btnTeamInfo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0zI-hL-U9y"/>
+                                </connections>
+                            </button>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="DkB-af-Mg2">
+                                <rect key="frame" x="32" y="305" width="350" height="32"/>
+                                <segments>
+                                    <segment title="First"/>
+                                    <segment title="Second"/>
+                                    <segment title="Third"/>
+                                </segments>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="xibLocKeys" value="barcelonaTitle,juventusTitle,chelseaTitle"/>
+                                </userDefinedRuntimeAttributes>
+                            </segmentedControl>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j3R-8F-o9r">
+                                <rect key="frame" x="186" y="430" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="countryInfo"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rlz-XN-g8N">
+                                <rect key="frame" x="186" y="529" width="42" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="xibLocKeys" value="countryList"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B76-77-wwf">
+                                <rect key="frame" x="184" y="475" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="update"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="btnUpdateTeamList:" destination="BYZ-38-t0r" eventType="touchUpInside" id="w4r-dS-COv"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="741-ky-RBm" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="12" id="2uT-Te-06B"/>
+                            <constraint firstItem="DkB-af-Mg2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="32" id="6HH-Xs-YV0"/>
+                            <constraint firstAttribute="trailing" secondItem="741-ky-RBm" secondAttribute="trailing" constant="12" id="9Zf-kN-1Mc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="DkB-af-Mg2" secondAttribute="trailing" constant="32" id="Dg3-Zp-7eD"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="usz-Kk-6j0" secondAttribute="trailing" constant="12" id="Men-xe-jWs"/>
+                            <constraint firstItem="usz-Kk-6j0" firstAttribute="top" secondItem="JmA-ek-fZP" secondAttribute="bottom" constant="64" id="Qaj-Bb-0aA"/>
+                            <constraint firstItem="B76-77-wwf" firstAttribute="top" secondItem="j3R-8F-o9r" secondAttribute="bottom" constant="24" id="R77-bH-1xG"/>
+                            <constraint firstItem="DkB-af-Mg2" firstAttribute="top" secondItem="usz-Kk-6j0" secondAttribute="bottom" constant="64" id="UaO-Cs-1QV"/>
+                            <constraint firstItem="Rlz-XN-g8N" firstAttribute="top" secondItem="B76-77-wwf" secondAttribute="bottom" constant="24" id="ag1-Su-ikQ"/>
+                            <constraint firstItem="Rlz-XN-g8N" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ccZ-XT-2P5"/>
+                            <constraint firstItem="741-ky-RBm" firstAttribute="top" secondItem="DkB-af-Mg2" secondAttribute="bottom" constant="32" id="dZi-UV-Ipa"/>
+                            <constraint firstItem="B76-77-wwf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="e5j-Cc-8y6"/>
+                            <constraint firstItem="JmA-ek-fZP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="12" id="fqx-gA-jDF"/>
+                            <constraint firstItem="JmA-ek-fZP" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="36" id="hJ3-rK-jGA"/>
+                            <constraint firstItem="j3R-8F-o9r" firstAttribute="top" secondItem="741-ky-RBm" secondAttribute="bottom" constant="32" id="myc-p6-OLe"/>
+                            <constraint firstItem="usz-Kk-6j0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="12" id="nel-EG-Cgg"/>
+                            <constraint firstItem="j3R-8F-o9r" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="skK-9E-qEa"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="JmA-ek-fZP" secondAttribute="trailing" constant="12" id="xb0-XT-i9F"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="1lv-cv-gOt">
+                        <barButtonItem key="leftBarButtonItem" title="Item" id="beE-sd-ejH">
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="leftBarItem"/>
+                            </userDefinedRuntimeAttributes>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Item" id="8GO-ke-0SJ">
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="rightBarItem"/>
+                            </userDefinedRuntimeAttributes>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="lblInfo" destination="usz-Kk-6j0" id="Tad-sg-31b"/>
+                        <outlet property="lblTeamList" destination="Rlz-XN-g8N" id="q8s-aQ-KEg"/>
+                        <outlet property="scTeam" destination="DkB-af-Mg2" id="hv8-bF-jKf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1042.0289855072465" y="138.61607142857142"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Wbn-LJ-qf2">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="M6b-N3-CBx" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="QjB-IU-4OQ">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Sdr-XZ-TMO"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="thr-6I-SL6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="138.61607142857142"/>
+        </scene>
+    </scenes>
+</document>
